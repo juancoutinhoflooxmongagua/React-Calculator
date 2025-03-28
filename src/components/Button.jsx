@@ -1,10 +1,10 @@
-import React from "react"
-import './Button.css'
+import React from "react";
+import './Button.css';
 
-export default function Button(props) {
+export default function Button({ label, className, onClick }) {
     return (
-        <button className={`button ${props.className}`} onClick={props.onClick}>
-            {props.label}
+        <button className={`button ${className}`} onClick={() => onClick(label)}>
+            {label}
         </button>
     );
 }

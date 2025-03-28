@@ -1,8 +1,8 @@
-import React from "react"
-import './Display.css'
+import React from "react";
+import './Display.css';
 
-export default function Display(props) {
-    return  (
-        <div className="Display">{props.value}</div>
-    )
+export default function Display({ value }) {
+    return (
+        <div className="display">{value}</div>
+    );
 }
