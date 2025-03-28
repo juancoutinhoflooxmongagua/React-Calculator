@@ -1,5 +1,5 @@
 import React from "react";
-import './Display.css';
+import './../main/Calculator.css';
 
 export default function Display({ value }) {
     return (
